@@ -1,0 +1,36 @@
+{
+  "projects": [
+    {
+      "id": "claude-context-manager-001",
+      "name": "Claude Context Manager Setup",
+      "description": "Creating centralized GitHub repo for tracking all Claude instances and projects",
+      "status": "in_progress",
+      "priority": "high",
+      "created_date": "2025-07-22",
+      "last_updated": "2025-07-22",
+      "claude_instance": "Desktop - Primary",
+      "folder_path": "./projects/claude-context-manager-001",
+      "github_repo": "TBD",
+      "progress": {
+        "completed_tasks": [
+          "Created project plan file",
+          "Set up folder structure"
+        ],
+        "current_task": "Creating main projects tracking file",
+        "next_tasks": [
+          "Create project templates",
+          "Initialize git repository",
+          "Push to GitHub"
+        ]
+      },
+      "tags": ["setup", "infrastructure", "meta-project"],
+      "context_file": "./contexts/claude-context-manager-001.json"
+    }
+  ],
+  "metadata": {
+    "total_projects": 1,
+    "active_projects": 1,
+    "last_sync": "2025-07-22T00:00:00Z",
+    "version": "1.0.0"
+  }
+}

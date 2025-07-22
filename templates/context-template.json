@@ -1,0 +1,41 @@
+{
+  "context_id": "[UNIQUE_CONTEXT_ID]",
+  "project_id": "[RELATED_PROJECT_ID]",
+  "timestamp": "[YYYY-MM-DDTHH:mm:ssZ]",
+  "claude_instance": "[INSTANCE_DESCRIPTION]",
+  "session_info": {
+    "working_directory": "[PATH]",
+    "platform": "[PLATFORM]",
+    "date": "[DATE]"
+  },
+  "conversation_summary": "[Brief summary of what was discussed/accomplished]",
+  "current_state": {
+    "last_action": "[What was the last thing done]",
+    "next_planned_action": "[What should happen next]",
+    "files_modified": [
+      {
+        "path": "[FILE_PATH]",
+        "action": "[created/modified/deleted]",
+        "description": "[What was changed]"
+      }
+    ],
+    "commands_run": [
+      {
+        "command": "[COMMAND]",
+        "purpose": "[WHY_RUN]",
+        "result": "[SUCCESS/FAILED/NOTES]"
+      }
+    ]
+  },
+  "todo_list": [
+    {
+      "task": "[TASK_DESCRIPTION]",
+      "status": "[pending/in_progress/completed]",
+      "priority": "[high/medium/low]"
+    }
+  ],
+  "key_insights": [
+    "[Any important discoveries or decisions made during this session]"
+  ],
+  "continuation_notes": "[What the next Claude instance should know to continue seamlessly]"
+}
