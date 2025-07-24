@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh issue list:*)",
+      "Bash(gh run list:*)",
+      "Bash(gh run view:*)",
+      "Bash(gh api:*)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(rm:*)",
+      "Bash(git clone:*)",
+      "Bash(mkdir:*)",
+      "Bash(git -C \"C:\\Users\\manas\\OneDrive - KINBEN INNOVATION PRIVATE LIMITED\\Desktop\\Kinben-ERPNext-KPN-System\" add .)",
+      "Bash(gh repo create:*)",
+      "Bash(gh repo view:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": []
+  }
+}
