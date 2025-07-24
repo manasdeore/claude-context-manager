@@ -85,9 +85,10 @@ class ProjectUpdater:
             subprocess.run(['git', 'commit', '-m', commit_message], check=True)
             
             # Push (this would work if the script runs on a system with git credentials)
-            # For demo purposes, we'll just print what would happen
-            print(f"Would push commit: {commit_message}")
-            # subprocess.run(['git', 'push'], check=True)
+            if self.push_enabled:
+                subprocess.run(['git', 'push'], check=True)
+            else:
+                print(f"Would push commit: {commit_message}")
             
             return True
         except subprocess.CalledProcessError as e:
