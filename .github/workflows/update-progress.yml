@@ -1,0 +1,43 @@
+name: Update Project Progress
+
+on:
+  repository_dispatch:
+    types: [update-progress]
+  workflow_dispatch:
+    inputs:
+      project_id:
+        description: 'Project ID to update'
+        required: false
+        default: ''
+      progress_update:
+        description: 'Progress update message'
+        required: false
+        default: 'Manual progress update via GitHub Actions'
+
+jobs:
+  update-progress:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+          
+      - name: Update project progress
+        run: |
+          python3 scripts/update-progress.py --test
+          
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          if [ -n "$(git status --porcelain)" ]; then
+            git commit -m "Update project progress via GitHub Actions - $(date)"
+            git push
+          else
+            echo "No changes to commit"
+          fi

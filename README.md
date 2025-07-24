@@ -18,13 +18,29 @@ When managing multiple Claude AI instances across different devices and sessions
 
 ## 📊 **Current Stats**
 - **Total Projects:** 8
-- **Active Projects:** 7 
-- **Completed Projects:** 1
+- **Active Projects:** 6 
+- **Completed Projects:** 2
 - **Last Sync:** 2025-07-24
+
+## 🌐 **Live Web Dashboard**
+**🚀 NEW!** Access your projects from anywhere with our live web dashboard:
+- **Live URL:** https://manasdeore.github.io/claude-context-manager/
+- **Features:** Real-time progress tracking, visual progress bars, one-click updates
+- **Mobile-friendly:** Works on all devices with responsive design
+- **Auto-updates:** Refreshes every 5 minutes with latest project status
 
 ## 🚀 **Quick Start**
 
-### 1. View Current Projects
+### 1. 🌐 Web Dashboard (Recommended)
+```
+Visit: https://manasdeore.github.io/claude-context-manager/
+- Visual project tracking with progress bars
+- One-click progress updates 
+- Mobile-friendly responsive design
+- Auto-refresh every 5 minutes
+```
+
+### 2. Local Terminal Dashboard
 ```bash
 # Windows (Recommended)
 scripts\claude-dashboard.bat
@@ -33,7 +49,7 @@ scripts\claude-dashboard.bat
 cat projects.json
 ```
 
-### 2. Start New Project
+### 3. Start New Project
 ```bash
 # 1. Copy template
 cp templates/project-template.md projects/your-project-id.md
@@ -55,6 +71,10 @@ cp templates/context-template.json contexts/your-context-id.json
 ```
 claude-context-manager/
 ├── 📄 projects.json           # Main project database (8 projects)
+├── 🌐 index.html             # Live web dashboard (NEW!)
+├── 🎨 dashboard.css          # Dashboard styling (NEW!)
+├── ⚡ dashboard.js           # Interactive functionality (NEW!)
+├── 📄 _config.yml            # GitHub Pages config (NEW!)
 ├── 📁 projects/              # Individual project documentation
 │   ├── claude-context-manager-001.md
 │   ├── kinben-unified-parts-002.md
@@ -70,10 +90,15 @@ claude-context-manager/
 │   ├── project-template.md
 │   ├── context-template.json
 │   └── daily-launch-template.md
-└── 📁 scripts/               # Utility tools
-    ├── claude-dashboard.py   # Python dashboard
-    ├── claude-dashboard.bat  # Windows launcher
-    └── startup.bat          # Auto-startup script
+├── 📁 scripts/               # Utility tools
+│   ├── claude-dashboard.py   # Python dashboard
+│   ├── claude-dashboard.bat  # Windows launcher
+│   ├── update-progress.py    # Web dashboard updater (NEW!)
+│   ├── update-progress.bat   # Windows progress updater (NEW!)
+│   └── startup.bat          # Auto-startup script
+└── 📁 .github/workflows/     # GitHub Actions (NEW!)
+    ├── deploy-dashboard.yml  # Auto-deploy web dashboard
+    └── update-progress.yml   # Progress update automation
 ```
 
 ## 🏗️ **Current Active Projects**
@@ -113,10 +138,13 @@ claude-context-manager/
 ## 🔧 **Workflow Guide**
 
 ### **Daily Workflow**
-1. **Session Start**: `cat projects.json` → Check active projects
-2. **During Work**: Update project status in real-time  
-3. **Session End**: Save context using templates
-4. **Regular Sync**: `git add . && git commit && git push`
+1. **Web Dashboard**: Visit https://manasdeore.github.io/claude-context-manager/
+2. **Review Projects**: Check active projects and progress bars
+3. **Update Progress**: Click "📊 Update Progress" button when work is complete
+4. **Terminal Option**: `cat projects.json` → Check active projects locally
+5. **During Work**: Update project status in real-time  
+6. **Session End**: Save context using templates
+7. **Regular Sync**: Changes auto-sync via web dashboard or manual git push
 
 ### **Project Management**
 ```bash
@@ -134,6 +162,12 @@ claude-context-manager/
 ```
 
 ## 🛠️ **Advanced Features**
+
+### **Live Web Dashboard** 🌐
+- `index.html` - Responsive web interface with real-time updates
+- `dashboard.css` - Modern styling with progress bars and animations
+- `dashboard.js` - Interactive functionality and auto-refresh
+- GitHub Pages hosting with custom domain support
 
 ### **Templates Available**
 - `project-template.md` - Standard project documentation
