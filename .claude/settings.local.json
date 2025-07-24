@@ -12,7 +12,9 @@
       "Bash(git -C \"C:\\Users\\manas\\OneDrive - KINBEN INNOVATION PRIVATE LIMITED\\Desktop\\Kinben-ERPNext-KPN-System\" add .)",
       "Bash(gh repo create:*)",
       "Bash(gh repo view:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git merge:*)",
+      "Bash(git commit:*)"
     ],
     "deny": []
   }
