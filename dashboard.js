@@ -37,6 +37,8 @@ class DashboardManager {
             this.lastUpdateTime = new Date();
         } catch (error) {
             console.error('Error loading project data:', error);
+            // Notify user about fallback to demo data
+            this.showError('Failed to load project data. Displaying demo data instead.');
             // Fallback to demo data if projects.json is not accessible
             this.projectsData = this.getDemoData();
             this.lastUpdateTime = new Date();
