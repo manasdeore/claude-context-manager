@@ -38,6 +38,14 @@ pip-log.txt
 # Node modules (if we add any JS tools later)
 node_modules/
 
+# Build artifacts
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Web dashboard development files
+*.map
+
 # Personal/sensitive context files (optional - comment out if you want to track all contexts)
 # contexts/personal-*
 # contexts/sensitive-*

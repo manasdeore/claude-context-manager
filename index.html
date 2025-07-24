@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude Context Manager - Live Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🤖</text></svg>">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <h1 class="logo">
+                    🤖 Claude Context Manager
+                </h1>
+                <div class="header-info">
+                    <span class="sync-status" id="syncStatus">Last sync: Loading...</span>
+                    <button class="sync-btn" id="syncBtn" onclick="triggerProjectUpdate()">
+                        📊 Update Progress
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Dashboard -->
+    <main class="main">
+        <div class="container">
+            <!-- Overview Cards -->
+            <section class="overview">
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">📊</div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="totalProjects">-</div>
+                            <div class="stat-label">Total Projects</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🚀</div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="activeProjects">-</div>
+                            <div class="stat-label">Active Projects</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">✅</div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="completedProjects">-</div>
+                            <div class="stat-label">Completed</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">📈</div>
+                        <div class="stat-content">
+                            <div class="stat-number" id="overallProgress">-</div>
+                            <div class="stat-label">Overall Progress</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Active Projects -->
+            <section class="projects-section">
+                <h2 class="section-title">🔥 Active Projects</h2>
+                <div class="projects-grid" id="activeProjectsGrid">
+                    <!-- Projects will be dynamically loaded here -->
+                </div>
+            </section>
+
+            <!-- Completed Projects -->
+            <section class="projects-section">
+                <h2 class="section-title">✅ Completed Projects</h2>
+                <div class="projects-grid" id="completedProjectsGrid">
+                    <!-- Completed projects will be dynamically loaded here -->
+                </div>
+            </section>
+
+            <!-- Quick Links -->
+            <section class="quick-links">
+                <h2 class="section-title">🔗 Quick Access</h2>
+                <div class="links-grid">
+                    <a href="https://the-clever-studio-f3b16.web.app/" target="_blank" class="link-card">
+                        <div class="link-icon">🌐</div>
+                        <div class="link-content">
+                            <div class="link-title">Parts Reference System</div>
+                            <div class="link-desc">Live production system</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/manasdeore/claude-context-manager" target="_blank" class="link-card">
+                        <div class="link-icon">📚</div>
+                        <div class="link-content">
+                            <div class="link-title">Context Manager Repo</div>
+                            <div class="link-desc">Project tracking system</div>
+                        </div>
+                    </a>
+                    <a href="https://github.com/Kinben-Electronics-Team/Kinben-Unified-Parts-Reference-System" target="_blank" class="link-card">
+                        <div class="link-icon">⚡</div>
+                        <div class="link-content">
+                            <div class="link-title">Parts System Repo</div>
+                            <div class="link-desc">Main development repo</div>
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Kinben Innovation. Claude Context Manager v1.2.0</p>
+        </div>
+    </footer>
+
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>Updating project status...</p>
+        </div>
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
