@@ -124,5 +124,23 @@
     </div>
 
     <script src="dashboard.js"></script>
+    <script>
+        // Debug logging
+        console.log('Starting dashboard initialization...');
+        
+        // Initialize dashboard when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('DOM loaded, creating dashboard manager...');
+            window.dashboardManager = new DashboardManager();
+        });
+        
+        // Fallback initialization after 2 seconds if needed
+        setTimeout(() => {
+            if (!window.dashboardManager) {
+                console.log('Fallback initialization...');
+                window.dashboardManager = new DashboardManager();
+            }
+        }, 2000);
+    </script>
 </body>
 </html>

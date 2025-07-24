@@ -16,7 +16,8 @@
       "Bash(git merge:*)",
       "Bash(git commit:*)",
       "Bash(ls:*)",
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "WebFetch(domain:manasdeore.github.io)"
     ],
     "deny": []
   }

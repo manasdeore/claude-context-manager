@@ -29,11 +29,16 @@ class DashboardManager {
 
     async loadProjectData() {
         try {
+            console.log('Attempting to load projects.json...');
             const response = await fetch('./projects.json');
+            console.log('Fetch response:', response.status, response.statusText);
+            
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
+            
             this.projectsData = await response.json();
+            console.log('Project data loaded successfully:', this.projectsData);
             this.lastUpdateTime = new Date();
         } catch (error) {
             console.error('Error loading project data:', error);
@@ -42,6 +47,7 @@ class DashboardManager {
             // Fallback to demo data if projects.json is not accessible
             this.projectsData = this.getDemoData();
             this.lastUpdateTime = new Date();
+            console.log('Using demo data instead');
         }
     }
 
@@ -307,10 +313,7 @@ async function triggerProjectUpdate() {
     }
 }
 
-// Initialize dashboard when DOM is loaded
-document.addEventListener('DOMContentLoaded', () => {
-    window.dashboardManager = new DashboardManager();
-});
+// Dashboard will be initialized by inline script in HTML
 
 // Add some visual feedback for interactive elements
 document.addEventListener('DOMContentLoaded', () => {
