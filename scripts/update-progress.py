@@ -40,6 +40,7 @@ class ProjectUpdater:
         """Update the last sync timestamp"""
         data = self.load_projects()
         if not data:
+            print("Error: Failed to update sync time because projects data could not be loaded.")
             return False
         
         # Update metadata
