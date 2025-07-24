@@ -289,7 +289,7 @@ async function triggerProjectUpdate() {
         dashboard.showLoading();
         
         // Simulate project tracker trigger (this would call a real API in production)
-        await new Promise(resolve => setTimeout(resolve, 2000));
+        await new Promise(resolve => setTimeout(resolve, CONFIG.PROJECT_UPDATE_DELAY));
         
         // Refresh the dashboard
         await dashboard.refreshData();
