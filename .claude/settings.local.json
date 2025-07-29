@@ -17,7 +17,12 @@
       "Bash(git commit:*)",
       "Bash(ls:*)",
       "Bash(find:*)",
-      "WebFetch(domain:manasdeore.github.io)"
+      "WebFetch(domain:manasdeore.github.io)",
+      "Bash(git push:*)",
+      "Bash(git pull:*)",
+      "Bash(python:*)",
+      "Bash(py:*)",
+      "Bash(scriptsclaude-dashboard.bat)"
     ],
     "deny": []
   }
