@@ -8,7 +8,6 @@ import json
 import os
 import sys
 import subprocess
-import requests
 from datetime import datetime
 from pathlib import Path
 
@@ -16,6 +15,7 @@ class ProjectUpdater:
     def __init__(self):
         self.repo_path = Path(__file__).parent.parent  # Go up one level from scripts/
         self.projects_file = self.repo_path / "projects.json"
+        self.push_enabled = False  # Disable push by default
         
     def load_projects(self):
         """Load current projects data"""
@@ -101,24 +101,24 @@ class ProjectUpdater:
     
     def run_update(self):
         """Main update process"""
-        print("🔄 Starting project progress update...")
+        print("Starting project progress update...")
         
         # Update sync time
         if not self.update_sync_time():
-            print("❌ Failed to update sync time")
+            print("Failed to update sync time")
             return False
         
         # Simulate progress update
         if not self.simulate_progress_update():
-            print("❌ Failed to update project progress")
+            print("Failed to update project progress")
             return False
         
         # Commit and push changes
         if not self.git_commit_and_push():
-            print("❌ Failed to commit changes")
+            print("Failed to commit changes")
             return False
         
-        print("✅ Project progress updated successfully!")
+        print("Project progress updated successfully!")
         return True
 
 def main():
@@ -126,7 +126,7 @@ def main():
     updater = ProjectUpdater()
     
     if len(sys.argv) > 1 and sys.argv[1] == '--test':
-        print("🧪 Running in test mode...")
+        print("Running in test mode...")
         
     success = updater.run_update()
     sys.exit(0 if success else 1)

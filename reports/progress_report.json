@@ -1,0 +1,859 @@
+{
+  "generated_at": "2025-07-29T16:20:17.531693",
+  "projects": [
+    {
+      "project_info": {
+        "id": "claude-context-manager-001",
+        "name": "Claude Context Manager Setup",
+        "description": "Creating centralized GitHub repo for tracking all Claude instances and projects",
+        "status": "completed",
+        "priority": "high",
+        "created_date": "2025-07-22",
+        "last_updated": "2025-07-24",
+        "tags": [
+          "setup",
+          "infrastructure",
+          "meta-project",
+          "completed"
+        ]
+      },
+      "directory_info": {
+        "path": "C:\\Users\\manas\\OneDrive - KINBEN INNOVATION PRIVATE LIMITED\\Desktop\\claude-context-manager\\projects\\claude-context-manager-001",
+        "exists": false,
+        "analysis": {
+          "exists": false,
+          "files": {
+            "total": 0,
+            "recent": 0,
+            "by_type": {}
+          },
+          "git_info": {
+            "is_repo": false,
+            "status": null,
+            "recent_commits": []
+          },
+          "last_modified": null,
+          "size_mb": 0,
+          "structure": {}
+        }
+      },
+      "activity": {
+        "score": 0,
+        "level": "Unknown",
+        "indicators": [
+          "Directory not found or inaccessible"
+        ]
+      },
+      "progress": {
+        "completed_tasks": [
+          "Created project plan file",
+          "Set up folder structure",
+          "Created main projects tracking file",
+          "Created project templates",
+          "Initialized git repository",
+          "Created GitHub repository",
+          "Tested project viewer scripts",
+          "Created comprehensive README.md",
+          "Pushed all changes to GitHub",
+          "System deployed and production ready"
+        ],
+        "current_task": "Project completed successfully",
+        "next_tasks": [
+          "Maintain and expand tracking system as needed"
+        ]
+      },
+      "technology_stack": [],
+      "github_repo": "https://github.com/manasdeore/claude-context-manager",
+      "live_url": "",
+      "context_file": "./contexts/claude-context-manager-001.json"
+    },
+    {
+      "project_info": {
+        "id": "kinben-unified-parts-002",
+        "name": "Kinben Unified Parts Reference System",
+        "description": "Production web-based electronic component management system - centralized KPN database and KiCad library integration",
+        "status": "completed",
+        "priority": "high",
+        "created_date": "2025-07-22",
+        "last_updated": "2025-07-22",
+        "tags": [
+          "production",
+          "web-app",
+          "component-management",
+          "kicad",
+          "database",
+          "electronics"
+        ]
+      },
+      "directory_info": {
+        "path": "C:\\Users\\manas\\OneDrive - KINBEN INNOVATION PRIVATE LIMITED\\Desktop\\Kinben-Unified-Parts-Reference-System",
+        "exists": true,
+        "analysis": {
+          "exists": true,
+          "files": {
+            "total": 19639,
+            "recent": 18410,
+            "by_type": {
+              "no_extension": 2667,
+              ".example": 1,
+              ".md": 1044,
+              ".js": 6698,
+              ".log": 2,
+              ".json": 1084,
+              ".html": 24,
+              ".py": 74,
+              ".sh": 22,
+              ".lnk": 1,
+              ".cache": 1,
+              ".csv": 38,
+              ".ts": 3011,
+              ".cmd": 41,
+              ".ps1": 41,
+              ".mjs": 52,
+              ".txt": 57,
+              ".mts": 8,
+              ".yml": 107,
+              ".iml": 4,
+              ".cjs": 190,
+              ".lock": 3,
+              ".markdown": 10,
+              ".bsd": 6,
+              ".map": 1973,
+              ".yaml": 10,
+              ".js~": 2,
+              ".nix": 1,
+              ".h": 408,
+              ".gypi": 1,
+              ".py-js": 1,
+              ".css": 98,
+              ".apache2": 1,
+              ".mit": 1,
+              ".gyp": 1,
+              ".bnf": 3,
+              ".flow": 2,
+              ".cts": 174,
+              ".png": 5,
+              ".xslt": 2,
+              ".opts": 1,
+              ".template": 3,
+              ".cc": 526,
+              ".bazel": 32,
+              ".xcprivacy": 1,
+              ".bzlmod": 2,
+              ".symbols": 1,
+              ".darwin": 1,
+              ".in": 4,
+              ".diff": 1,
+              ".pl": 1,
+              ".hook": 1,
+              ".bat": 4,
+              ".cmake": 5,
+              ".c": 2,
+              ".bzl": 2,
+              ".inc": 24,
+              ".lds": 1,
+              ".zoneinfo": 1,
+              ".tab": 3,
+              ".node": 1,
+              ".xml": 15,
+              ".jsdoc": 1,
+              ".proto": 179,
+              ".gif": 1,
+              ".gz": 95,
+              ".data": 2,
+              ".wasm": 3,
+              ".toml": 1,
+              ".cs": 1,
+              ".apache": 1,
+              ".typed": 1,
+              ".ninja": 1,
+              ".coffee": 4,
+              ".ne": 6,
+              ".1": 1,
+              ".scss": 97,
+              ".jpg": 2,
+              ".tsbuildinfo": 4,
+              ".rules": 3,
+              ".env": 1,
+              ".gql": 3,
+              ".njs": 1,
+              ".cjson": 2,
+              ".mdx": 4,
+              ".tgz": 2,
+              ".jst": 25,
+              ".def": 5,
+              ".stp": 44,
+              ".step": 58,
+              ".kicad_sym": 36,
+              ".bak": 4,
+              ".kicad_mod": 526,
+              ".sample": 14,
+              ".0": 1,
+              ".idx": 3,
+              ".pack": 3,
+              ".rev": 3
+            }
+          },
+          "git_info": {
+            "is_repo": true,
+            "status": null,
+            "recent_commits": []
+          },
+          "last_modified": "2025-07-29T15:49:50.521043",
+          "size_mb": 247.19,
+          "structure": {
+            "dist": 392,
+            "Kinben Basic Kicad Library": 364,
+            "KPN Master Reference Sheet": 19,
+            "node_modules": 19993,
+            "Project Templates": 1,
+            "scripts": 3,
+            "tests": 4
+          }
+        }
+      },
+      "activity": {
+        "score": 50,
+        "level": "High",
+        "indicators": [
+          "18410 files modified in last 7 days"
+        ]
+      },
+      "progress": {
+        "completed_tasks": [
+          "Full production deployment on Firebase",
+          "338+ KiCad library files integrated",
+          "16 component categories with KPN system",
+          "Auto-deployment pipeline GitHub->Firebase",
+          "Repository cleanup and optimization",
+          "Comprehensive test suite implementation"
+        ],
+        "current_task": "Maintenance mode - monitoring for issues",
+        "next_tasks": [
+          "Fix failing test coverage (Issue #20)",
+          "Continue library expansion as needed",
+          "Monitor live system performance"
+        ]
+      },
+      "technology_stack": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Firebase",
+        "GitHub Actions",
+        "Playwright",
+        "Node.js"
+      ],
+      "github_repo": "https://github.com/Kinben-Electronics-Team/Kinben-Unified-Parts-Reference-System",
+      "live_url": "https://the-clever-studio-f3b16.web.app/",
+      "context_file": "./contexts/kinben-unified-parts-002.json"
+    },
+    {
+      "project_info": {
+        "id": "kinben-raspberry-pi-003",
+        "name": "Kinben File Server Infrastructure",
+        "description": "Raspberry Pi-based enterprise file server with dual-network infrastructure - FTP/SMB sharing system",
+        "status": "completed",
+        "priority": "medium",
+        "created_date": "2025-07-21",
+        "last_updated": "2025-07-24",
+        "tags": [
+          "raspberry-pi",
+          "file-server",
+          "infrastructure",
+          "production",
+          "completed"
+        ]
+      },
+      "directory_info": {
+        "path": "Active on Raspberry Pi (192.168.1.25)",
+        "exists": false,
+        "analysis": {
+          "exists": false,
+          "files": {
+            "total": 0,
+            "recent": 0,
+            "by_type": {}
+          },
+          "git_info": {
+            "is_repo": false,
+            "status": null,
+            "recent_commits": []
+          },
+          "last_modified": null,
+          "size_mb": 0,
+          "structure": {}
+        }
+      },
+      "activity": {
+        "score": 0,
+        "level": "Unknown",
+        "indicators": [
+          "Directory not found or inaccessible"
+        ]
+      },
+      "progress": {
+        "completed_tasks": [
+          "File server fully operational and production-ready",
+          "Dual-network configuration (Ethernet + WiFi hotspot)",
+          "SMB/CIFS sharing with authentication",
+          "Cross-platform access (Windows/Mac/Linux/Mobile)",
+          "SSH key-based authentication setup",
+          "Comprehensive documentation and troubleshooting guides",
+          "Automated health monitoring system",
+          "Production-ready network infrastructure",
+          "System deployed and stable"
+        ],
+        "current_task": "Maintenance mode - monitoring system health",
+        "next_tasks": [
+          "Regular system maintenance",
+          "Monitor file sharing performance",
+          "Update documentation as needed"
+        ]
+      },
+      "technology_stack": [
+        "Raspberry Pi",
+        "Linux",
+        "Samba",
+        "nginx",
+        "SSH",
+        "systemd",
+        "hostapd",
+        "dnsmasq"
+      ],
+      "github_repo": "",
+      "live_url": "",
+      "context_file": "./contexts/kinben-raspberry-pi-003.json"
+    },
+    {
+      "project_info": {
+        "id": "kinben-electronics-code-004",
+        "name": "Kinben Electronics Embedded Systems Repository",
+        "description": "Comprehensive embedded systems codebase - 6 industrial sensor projects with Teensy 4.1 and RP2040 platforms",
+        "status": "in_progress",
+        "priority": "high",
+        "created_date": "2025-07-22",
+        "last_updated": "2025-07-29",
+        "tags": [
+          "embedded-systems",
+          "teensy",
+          "rp2040",
+          "sensors",
+          "industrial",
+          "production-ready",
+          "documentation"
+        ]
+      },
+      "directory_info": {
+        "path": "C:\\Users\\manas\\OneDrive - KINBEN INNOVATION PRIVATE LIMITED\\Documents\\Kinben Electronics Repo Folder\\Code",
+        "exists": true,
+        "analysis": {
+          "exists": true,
+          "files": {
+            "total": 469,
+            "recent": 32,
+            "by_type": {
+              ".md": 52,
+              ".bat": 1,
+              ".h": 22,
+              "no_extension": 158,
+              ".ini": 6,
+              ".code-workspace": 2,
+              ".log": 1,
+              ".json": 13,
+              ".kicad_sch": 7,
+              ".kicad_pro": 3,
+              ".kicad_pcb": 2,
+              ".stp": 9,
+              ".step": 10,
+              ".wrl": 8,
+              ".ipc": 2,
+              ".zip": 4,
+              ".html": 1,
+              ".txt": 10,
+              ".cpp": 16,
+              ".sample": 112,
+              ".idx": 8,
+              ".pack": 8,
+              ".rev": 8,
+              ".pio": 2,
+              ".c": 4
+            }
+          },
+          "git_info": {
+            "is_repo": false,
+            "status": null,
+            "recent_commits": []
+          },
+          "last_modified": "2025-07-24T13:20:33.421150",
+          "size_mb": 28.09,
+          "structure": {
+            "Common-libraries": 62,
+            "CSB-Code-Central-Sync-Board-V1.0": 74,
+            "HUB-Code-HUB-Master-Board-V1.0": 71,
+            "HUB-Code-HUB-Slots-Board-V1.0": 96,
+            "INAV-Code-Inertial-Navigation-Board-V1.0": 166,
+            "ODO-Code-Odometer-Board-V1.0": 69,
+            "Sensor_Head_Test_Jig": 131
+          }
+        }
+      },
+      "activity": {
+        "score": 50,
+        "level": "High",
+        "indicators": [
+          "32 files modified in last 7 days"
+        ]
+      },
+      "progress": {
+        "completed_tasks": [
+          "5 out of 6 projects production-ready",
+          "Standardized documentation (5 complete wikis)",
+          "CSB Central Sync Board - Complete",
+          "HUB Master Board - Complete",
+          "HUB Slots Board - Complete",
+          "INAV Inertial Navigation - Complete",
+          "ODO Odometer Board - Complete",
+          "Shared library ecosystem established",
+          "Performance optimization completed"
+        ],
+        "current_task": "Updated via web dashboard at 16:19",
+        "next_tasks": [
+          "Complete 4 remaining wiki pages for Test Jig",
+          "Deploy all wikis to GitHub",
+          "Finalize test jig documentation",
+          "Production deployment of remaining projects"
+        ]
+      },
+      "technology_stack": [
+        "Teensy 4.1",
+        "Raspberry Pi Pico",
+        "RP2040",
+        "Arduino Framework",
+        "PlatformIO",
+        "C++",
+        "I2C",
+        "SPI",
+        "UART"
+      ],
+      "github_repo": "",
+      "live_url": "",
+      "context_file": "./contexts/kinben-electronics-code-004.json"
+    },
+    {
+      "project_info": {
+        "id": "inav-pcb-v2-006",
+        "name": "INAV PCB Inertial Navigation Board V2.0",
+        "description": "Hardware evolution of INAV software system - PCB design for inertial navigation with IMU integration",
+        "status": "in_progress",
+        "priority": "medium",
+        "created_date": "2025-07-24",
+        "last_updated": "2025-07-24",
+        "tags": [
+          "pcb",
+          "hardware",
+          "navigation",
+          "imu",
+          "design"
+        ]
+      },
+      "directory_info": {
+        "path": "C:\\Users\\manas\\OneDrive - KINBEN INNOVATION PRIVATE LIMITED\\Desktop\\INAV-PCB-Inertial-Navigation-Board-V2.0",
+        "exists": true,
+        "analysis": {
+          "exists": true,
+          "files": {
+            "total": 284,
+            "recent": 166,
+            "by_type": {
+              ".json": 4,
+              "no_extension": 156,
+              ".kicad_sch": 22,
+              ".log": 1,
+              ".ini": 2,
+              ".kicad_dru": 1,
+              ".kicad_pcb": 2,
+              ".kicad_pro": 2,
+              ".md": 1,
+              ".jpg": 3,
+              ".pdf": 3,
+              ".stp": 33,
+              ".step": 16,
+              ".wrl": 10,
+              ".zip": 6,
+              ".ipc": 2,
+              ".kicad_wks": 2,
+              ".kicad_prl": 1,
+              ".html": 1,
+              ".csv": 2,
+              ".sample": 14
+            }
+          },
+          "git_info": {
+            "is_repo": true,
+            "status": null,
+            "recent_commits": []
+          },
+          "last_modified": "2025-07-28T22:05:59.348330",
+          "size_mb": 146.63,
+          "structure": {
+            "INAV-PCB-Inertial-Navigation-Board-V2.0": 149
+          }
+        }
+      },
+      "activity": {
+        "score": 50,
+        "level": "High",
+        "indicators": [
+          "166 files modified in last 7 days"
+        ]
+      },
+      "progress": {
+        "completed_tasks": [
+          "PCB design project setup",
+          "Hardware specification planning"
+        ],
+        "current_task": "PCB design and layout development",
+        "next_tasks": [
+          "Complete PCB schematic design",
+          "Layout optimization",
+          "Manufacturing preparation"
+        ]
+      },
+      "technology_stack": [
+        "PCB Design",
+        "IMU",
+        "Inertial Navigation",
+        "Hardware"
+      ],
+      "github_repo": "",
+      "live_url": "",
+      "context_file": "./contexts/inav-pcb-v2-006.json"
+    },
+    {
+      "project_info": {
+        "id": "mfl-sensor-board-007",
+        "name": "MFL Sensor Board V1.0",
+        "description": "Complete 3-layer PCB system for pipeline inspection using TMAG5170 sensors with LVDS communication",
+        "status": "in_progress",
+        "priority": "high",
+        "created_date": "2025-07-24",
+        "last_updated": "2025-07-24",
+        "tags": [
+          "pcb",
+          "sensors",
+          "pipeline",
+          "inspection",
+          "tmag5170",
+          "lvds"
+        ]
+      },
+      "directory_info": {
+        "path": "C:\\Users\\manas\\OneDrive - KINBEN INNOVATION PRIVATE LIMITED\\Desktop\\MFLS-PCB-MFL-Sensor-Board-V1.0",
+        "exists": true,
+        "analysis": {
+          "exists": true,
+          "files": {
+            "total": 323,
+            "recent": 0,
+            "by_type": {
+              "no_extension": 169,
+              ".md": 1,
+              ".kicad_sch": 27,
+              ".log": 3,
+              ".kicad_pcb": 7,
+              ".kicad_prl": 3,
+              ".kicad_pro": 8,
+              ".stp": 13,
+              ".step": 27,
+              ".wrl": 24,
+              ".zip": 14,
+              ".ipc": 6,
+              ".html": 3,
+              ".pdf": 1,
+              ".sample": 14,
+              ".idx": 1,
+              ".pack": 1,
+              ".rev": 1
+            }
+          },
+          "git_info": {
+            "is_repo": true,
+            "status": null,
+            "recent_commits": []
+          },
+          "last_modified": "2025-07-21T19:32:52.399379",
+          "size_mb": 50.58,
+          "structure": {
+            "CSM Proto V4.2 - LVC": 58,
+            "CSM Proto V4.2 - Original Unified": 50,
+            "CSM Proto V4.2 - sensors": 59,
+            "CSM Proto V4.2 coil": 52,
+            "Documentation": 1,
+            "Images": 6,
+            "lib": 6,
+            "Manufacturing": 4,
+            "Templates": 1
+          }
+        }
+      },
+      "activity": {
+        "score": 0,
+        "level": "Inactive",
+        "indicators": []
+      },
+      "progress": {
+        "completed_tasks": [
+          "3-layer PCB system design",
+          "TMAG5170 sensor integration",
+          "LVDS communication protocol implementation"
+        ],
+        "current_task": "PCB system optimization and testing preparation",
+        "next_tasks": [
+          "Manufacturing file preparation",
+          "Testing protocol development",
+          "Production deployment"
+        ]
+      },
+      "technology_stack": [
+        "PCB Design",
+        "TMAG5170",
+        "LVDS",
+        "Pipeline Inspection",
+        "3-layer PCB"
+      ],
+      "github_repo": "",
+      "live_url": "",
+      "context_file": "./contexts/mfl-sensor-board-007.json"
+    },
+    {
+      "project_info": {
+        "id": "battery-control-board-008",
+        "name": "Battery Control Board",
+        "description": "Active power path management system for multiple battery and external supply management",
+        "status": "in_progress",
+        "priority": "medium",
+        "created_date": "2025-07-24",
+        "last_updated": "2025-07-24",
+        "tags": [
+          "battery",
+          "power-management",
+          "control",
+          "pcb",
+          "safety"
+        ]
+      },
+      "directory_info": {
+        "path": "C:\\Users\\manas\\OneDrive - KINBEN INNOVATION PRIVATE LIMITED\\Desktop\\01_Active_Projects\\Battery Control Board",
+        "exists": true,
+        "analysis": {
+          "exists": true,
+          "files": {
+            "total": 75,
+            "recent": 0,
+            "by_type": {
+              ".kicad_sch": 19,
+              ".kicad_pcb": 1,
+              ".kicad_prl": 1,
+              ".kicad_pro": 1,
+              "no_extension": 35,
+              ".zip": 1,
+              ".md": 1,
+              ".kicad_wks": 2,
+              ".sample": 14
+            }
+          },
+          "git_info": {
+            "is_repo": false,
+            "status": null,
+            "recent_commits": []
+          },
+          "last_modified": "2024-12-20T15:51:07.819749",
+          "size_mb": 6.57,
+          "structure": {
+            "Battery Control Board-backups": 1,
+            "Battery-Control-Board": 61,
+            "Computations": 1,
+            "DXF_SVG": 1,
+            "Images": 1,
+            "lib": 6,
+            "Manufacturing": 6,
+            "STEP_BLENDER": 1,
+            "Templates": 2
+          }
+        }
+      },
+      "activity": {
+        "score": 0,
+        "level": "Inactive",
+        "indicators": []
+      },
+      "progress": {
+        "completed_tasks": [
+          "Power path management design",
+          "Multiple battery system architecture"
+        ],
+        "current_task": "Control circuit implementation",
+        "next_tasks": [
+          "External supply integration",
+          "Safety circuit implementation",
+          "Testing and validation"
+        ]
+      },
+      "technology_stack": [
+        "Power Management",
+        "Battery Control",
+        "PCB Design",
+        "Power Path"
+      ],
+      "github_repo": "",
+      "live_url": "",
+      "context_file": "./contexts/battery-control-board-008.json"
+    },
+    {
+      "project_info": {
+        "id": "awesome-claude-agents-009",
+        "name": "Implement Awesome Claude Agents in workflow",
+        "description": "Integration of specialized AI agent team system - 26 specialized agents for collaborative software development",
+        "status": "in_progress",
+        "priority": "high",
+        "created_date": "2025-07-29",
+        "last_updated": "2025-07-29",
+        "tags": [
+          "ai-agents",
+          "workflow",
+          "automation",
+          "development-team",
+          "claude-code"
+        ]
+      },
+      "directory_info": {
+        "path": "./awesome-claude-agents",
+        "exists": true,
+        "analysis": {
+          "exists": true,
+          "files": {
+            "total": 63,
+            "recent": 63,
+            "by_type": {
+              "no_extension": 13,
+              ".md": 33,
+              ".sample": 14,
+              ".idx": 1,
+              ".pack": 1,
+              ".rev": 1
+            }
+          },
+          "git_info": {
+            "is_repo": true,
+            "status": null,
+            "recent_commits": []
+          },
+          "last_modified": "2025-07-29T15:56:51.415576",
+          "size_mb": 0.75,
+          "structure": {
+            "agents": 34,
+            "docs": 5
+          }
+        }
+      },
+      "activity": {
+        "score": 50,
+        "level": "High",
+        "indicators": [
+          "63 files modified in last 7 days"
+        ]
+      },
+      "progress": {
+        "completed_tasks": [
+          "Repository cloned and integrated into context manager",
+          "Project added to tracking system"
+        ],
+        "current_task": "Planning integration strategy for agent workflow",
+        "next_tasks": [
+          "Set up agent configuration system",
+          "Implement team-based development workflow",
+          "Test agent collaboration features",
+          "Deploy specialized agents for active projects"
+        ]
+      },
+      "technology_stack": [
+        "Claude Code",
+        "AI Agents",
+        "Workflow Automation",
+        "Team Collaboration"
+      ],
+      "github_repo": "https://github.com/vijaythecoder/awesome-claude-agents",
+      "live_url": "",
+      "context_file": "./contexts/awesome-claude-agents-009.json"
+    }
+  ],
+  "summary": {
+    "total_projects": 8,
+    "status_breakdown": {
+      "completed": 3,
+      "in_progress": 5
+    },
+    "priority_breakdown": {
+      "high": 5,
+      "medium": 3
+    },
+    "activity_breakdown": {
+      "Unknown": 2,
+      "High": 4,
+      "Inactive": 2
+    },
+    "technology_usage": {
+      "HTML5": 1,
+      "CSS3": 1,
+      "JavaScript": 1,
+      "Firebase": 1,
+      "GitHub Actions": 1,
+      "Playwright": 1,
+      "Node.js": 1,
+      "Raspberry Pi": 1,
+      "Linux": 1,
+      "Samba": 1,
+      "nginx": 1,
+      "SSH": 1,
+      "systemd": 1,
+      "hostapd": 1,
+      "dnsmasq": 1,
+      "Teensy 4.1": 1,
+      "Raspberry Pi Pico": 1,
+      "RP2040": 1,
+      "Arduino Framework": 1,
+      "PlatformIO": 1,
+      "C++": 1,
+      "I2C": 1,
+      "SPI": 1,
+      "UART": 1,
+      "PCB Design": 3,
+      "IMU": 1,
+      "Inertial Navigation": 1,
+      "Hardware": 1,
+      "TMAG5170": 1,
+      "LVDS": 1,
+      "Pipeline Inspection": 1,
+      "3-layer PCB": 1,
+      "Power Management": 1,
+      "Battery Control": 1,
+      "Power Path": 1,
+      "Claude Code": 1,
+      "AI Agents": 1,
+      "Workflow Automation": 1,
+      "Team Collaboration": 1
+    },
+    "recent_activity": 18671,
+    "total_files": 20853,
+    "total_size_mb": 479.80999999999995,
+    "git_repos": 4,
+    "active_projects": 4
+  },
+  "system_info": {
+    "base_directory": "C:\\Users\\manas\\OneDrive - KINBEN INNOVATION PRIVATE LIMITED\\Desktop",
+    "context_manager_path": "C:\\Users\\manas\\OneDrive - KINBEN INNOVATION PRIVATE LIMITED\\Desktop\\claude-context-manager",
+    "python_version": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "platform": "nt"
+  }
+}
